@@ -1,0 +1,980 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Emaricdulfe Sonnets written by E.C. Esquier.</title>
+            <author>E. C., Esquire.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1595</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 35 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B11895</idno>
+            <idno type="STC">STC 4268</idno>
+            <idno type="STC">ESTC S104846</idno>
+            <idno type="EEBO-CITATION">99840577</idno>
+            <idno type="PROQUEST">99840577</idno>
+            <idno type="VID">176436</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B11895)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 176436)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 185:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Emaricdulfe Sonnets written by E.C. Esquier.</title>
+                  <author>E. C., Esquire.</author>
+               </titleStmt>
+               <extent>[48] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [by J. Orwin] for Matthew Law,</publisher>
+                  <pubPlace>At London :</pubPlace>
+                  <date>1595.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Printer's name from STC.</note>
+                  <note>Signatures: A-C.</note>
+                  <note>The first leaf is blank except for signature-mark "A.j."; the last leaf is blank.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sonnets, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-10</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-11</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2013-11</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:176436:1"/>
+            <pb facs="tcp:176436:1"/>
+            <pb facs="tcp:176436:2"/>
+            <pb facs="tcp:176436:2"/>
+            <p>
+               <hi>Emaricdulfe.</hi>
+            </p>
+            <p>SONNETS WRITTEN BY <hi>E. C.</hi> Eſquier.</p>
+            <p>
+               <hi>Non ſunt vt quondam, plena fauoris erant.</hi>
+            </p>
+            <figure>
+               <figDesc>printer's device, McKerrow 273β: "Framed device of clasped hands emerging from clouds, holding a caduceus and two cornucopias."</figDesc>
+               <q>BY WISDOME PEACE BY PEACE PLENTY</q>
+            </figure>
+            <p>AT LONDON, Printed for <hi>Matthew Law.</hi>
+            </p>
+            <p>1595.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:176436:3"/>
+            <pb facs="tcp:176436:3"/>
+            <head>TO MY VERY GOOD friends, <hi>Iohn Zouch,</hi> and <hi>Ed<g ref="char:EOLhyphen"/>ward Fitt<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n, Eſquiers.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">B</seg>Oth louing friends, foraſmuch as by reaſon of an ague, I was inforced to keepe my chamber, and to abandon idlenes, I tooke in hande my pen to fi<g ref="char:EOLhyphen"/>niſh an idle worke I had begun, at the command and ſeruice of a faire Dame, being moſt exqui<g ref="char:EOLhyphen"/>ſitly well featured, and of as excellent good car<g ref="char:EOLhyphen"/>riage, adorned with vertue: and vnderſtanding the ſtorie, and knowing you both to be of ſuffi<g ref="char:EOLhyphen"/>cient valour, wit, and honeſtie, preſumed to dedi<g ref="char:EOLhyphen"/>cate the ſame to you, not doubting but that you will vouchſafe for my ſake, to maintaine the ho<g ref="char:EOLhyphen"/>nour of ſo ſweete a Saint. Thus crauing you my deare friends to be patrones of theſe fewe Son<g ref="char:EOLhyphen"/>nets: being well perſwaded you will excuſe my
+<pb facs="tcp:176436:4"/> unlearned writing, in regard you may be aſſured I am no ſcholler, as dooth appeare by this my worthles verſe: hoping you will receiue my good<g ref="char:EOLhyphen"/>will with content, as I my ſelfe ſhall be then beſt ſatisfied. And ſo wiſhing you both as much comfortable happines, as to my ſoule: I bid you heartily farewell.</p>
+            <closer>
+               <signed>Yours in all true friend<g ref="char:EOLhyphen"/>ſhip. E. C.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sonnets">
+            <pb facs="tcp:176436:4"/>
+            <head>EMARICDVLFE.</head>
+            <div n="1" type="sonnet">
+               <head>SONNET. I.</head>
+               <lg>
+                  <l>WHen firſt the rage of loue aſſail'd my hart,</l>
+                  <l>And towards my thoughts his fiery forces bent:</l>
+                  <l>Eftſoones to ſhield me from his wounding dart,</l>
+                  <l>Arm'd with diſdaine, I held him in contempt.</l>
+                  <l>Curld headed loue when from mount Erecine</l>
+                  <l>He ſaw this geere, ſo ill thereof he brookes,</l>
+                  <l>That thence he ſpeedes vnwilling to be ſeene,</l>
+                  <l>Till he had tane his ſtand in thy faire lookes.</l>
+                  <l>There all inrag'd his golden bow he bent,</l>
+                  <l>And nockt his arrow like a pretie elfe:</l>
+                  <l>Which when I ſaw, I humbly to him went,</l>
+                  <l>And cri'd hold, hold, and I will yeeld my ſelfe.</l>
+                  <l>Thus <hi>Cupid</hi> conquer'd me, and made me ſweare</l>
+                  <l>Homage to him, and dutie to my deare.</l>
+               </lg>
+            </div>
+            <div n="2" type="sonnet">
+               <pb facs="tcp:176436:5"/>
+               <head>SONNET. II.</head>
+               <lg>
+                  <l>HOmage to loue, dutie to thee my deare,</l>
+                  <l>Deare miſtris of my thoughts, Queene of my ioy:</l>
+                  <l>Then my lifes gratious planet bright appeare,</l>
+                  <l>My hearts deepe griefe and ſorrow to deſtroy.</l>
+                  <l>Be not (I thee beſeech) my cares maintainer:</l>
+                  <l>For in thy power it lyes to ſaue or ſtrike,</l>
+                  <l>To kill the griefe, or els the griefes retainer,</l>
+                  <l>With loue or hate the infant of diſlike.</l>
+                  <l>O if that cruell loue did not command</l>
+                  <l>To ſlay my heart without remorſe or pitie:</l>
+                  <l>Or if he did that ſad doome countermand,</l>
+                  <l>And be a gratious Queene of gentle mercie:</l>
+                  <l>Sweet ſhew thy ſelfe diuine in being pitifull,</l>
+                  <l>For nature of the gods is to be mercifull.</l>
+               </lg>
+            </div>
+            <div n="3" type="sonnet">
+               <pb facs="tcp:176436:5"/>
+               <head>SONNET. III.</head>
+               <lg>
+                  <l>WHy doe I pleade for mercie vnto thee,</l>
+                  <l>When from offence my life &amp; ſoule are cleere?</l>
+                  <l>For in my heart I neere offended thee,</l>
+                  <l>Vnleſſe the hie pitch of his flight it were.</l>
+                  <l>I<g ref="char:punc">▪</g> that is it, I to too well conſider,</l>
+                  <l>Thy ſparkling beautie is the ſunne that melted:</l>
+                  <l>My thoughts the waxe that ioyn'd his wings together,</l>
+                  <l>And till my very fall I neuer felt it:</l>
+                  <l>Deſpaire the Ocean is that ſwallowed me,</l>
+                  <l>Where I like <hi>Icarus</hi> continue drowned,</l>
+                  <l>Till with thy beautie I reuiued be,</l>
+                  <l>And with loues immortalitie be crowned.</l>
+                  <l>True loue immortall is, then loue me truly:</l>
+                  <l>Sweet doe, and then thy name Ile honor duly.</l>
+               </lg>
+            </div>
+            <div n="4" type="sonnet">
+               <pb facs="tcp:176436:6"/>
+               <head>SONNET. IIII.</head>
+               <lg>
+                  <l>MY forlorne muſe that neuer trode the path</l>
+                  <l>That leades to top of hie Pierion mount,</l>
+                  <l>Nor neuer waſht within the liueſome bath</l>
+                  <l>Of learnings ſpring, bright Aganippe fount:</l>
+                  <l>Mine artles pen that neuer yet was dipt</l>
+                  <l>In ſacred nectar of ſweet Caſtalie,</l>
+                  <l>My loueſicke heart that euer hath I clipt,</l>
+                  <l>
+                     <hi>Emaricdulfe</hi> the Queene of chaſtitie:</l>
+                  <l>Shall now learne skill my Ladies fame to raiſe,</l>
+                  <l>Shall now take paines her vertues to record,</l>
+                  <l>And honor her with more immortall praiſe,</l>
+                  <l>Then euer heretofore they could affoord:</l>
+                  <l>Both heart, and pen, and muſe ſhall thinke it dutie,</l>
+                  <l>With ſigheſwolne words to blaze her heaue<g ref="char:cmbAbbrStroke">̄</g>ly beutie.</l>
+               </lg>
+            </div>
+            <div n="5" type="sonnet">
+               <pb facs="tcp:176436:6"/>
+               <head>SONNET. V.</head>
+               <lg>
+                  <l>NAture (<hi>Emaricdulf</hi>) did greatly fauour,</l>
+                  <l>When firſt her pourtrait ſhe began to pencill,</l>
+                  <l>And rob'd the heauens of her chiefeſt honour:</l>
+                  <l>There ſacred beautie all her parts doth tincill.</l>
+                  <l>Heauens Hyrarkie is in her bright eyes ſpheered:</l>
+                  <l>The Graces ſport in her cheekes dimpled pits:</l>
+                  <l>Trophies of maieſtie in her face be reared,</l>
+                  <l>And in her lookes ſtately Saturnia ſits.</l>
+                  <l>Modeſt Diana in her thoughts doth glorie,</l>
+                  <l>Loue-lacking Veſta in her heart inthroned:</l>
+                  <l>The quired Muſes on her lips doe ſtorie</l>
+                  <l>Their heauen ſweet notes, as if that place they ow<g ref="char:EOLhyphen"/>ned.</l>
+                  <l>But aye is me, <hi>Cupid</hi> and <hi>Venus</hi> faire</l>
+                  <l>Haue no degree, ſaue in her golden haire.</l>
+               </lg>
+            </div>
+            <div n="6" type="sonnet">
+               <pb facs="tcp:176436:7"/>
+               <head>SONNET. VI.</head>
+               <lg>
+                  <l>WIthin her haire <hi>Venus</hi> and <hi>Cupid</hi> ſport them:</l>
+                  <l>Sometime they twiſt it Amberlike in gold,</l>
+                  <l>To which the whiſtling windes doe oft reſort them,</l>
+                  <l>As if they ſtroue to haue the knots vnrold:</l>
+                  <l>Sometime they let their golden treſſes dangle,</l>
+                  <l>And therewith nets and amorous gins they make,</l>
+                  <l>Wherewith the hearts of louers to intangle<g ref="char:punc">▪</g>
+                  </l>
+                  <l>Which once inthral'd, no ranſome they will take.</l>
+                  <l>But as to tyrants ſitting in their thrones,</l>
+                  <l>Looke on their ſlaues with tyrannizing eyes:</l>
+                  <l>So they no whit regarding louers mones,</l>
+                  <l>Doome worlds of hearts to endles ſlaueries,</l>
+                  <l>Vnleſſe they ſubiect-like ſweare to adore,</l>
+                  <l>And ſerue <hi>Emaricdulf</hi> for euermore.</l>
+               </lg>
+            </div>
+            <div n="7" type="sonnet">
+               <pb facs="tcp:176436:7"/>
+               <head>SONNET. VII.</head>
+               <lg>
+                  <l>I Will perſeuer euer for to loue thee,</l>
+                  <l>O ceaſe diuineſt ſweetnes to diſdaine mee:</l>
+                  <l>Albeit my loues true types can neuer moue thee,</l>
+                  <l>Yet from affection let not pride detaine thee.</l>
+                  <l>Although my heart once purchaſt thy diſpleaſure</l>
+                  <l>With ouerbold preſumption on thy fauour:</l>
+                  <l>Yet now Ile ſacrifice my richeſt treaſure</l>
+                  <l>Vnto thy name and much admired honour:</l>
+                  <l>Teares are the treaſure of my griefe-gal'd hart,</l>
+                  <l>Which on (thy loue) my altar I haue dropped</l>
+                  <l>To thee, that my thoughts temples goddeſſe art,</l>
+                  <l>Hoping thy anger would thereby be ſtopped.</l>
+                  <l>If theſe to get thy grace may not ſuffice,</l>
+                  <l>My heart is ſlaine, accept that ſacrifice.</l>
+               </lg>
+            </div>
+            <div n="8" type="sonnet">
+               <pb facs="tcp:176436:8"/>
+               <head>SONNET. VIII.</head>
+               <lg>
+                  <l>
+                     <hi>EMaricdulf,</hi> thou grace to euery grace,</l>
+                  <l>Thou perfect life of my vnperfect liuing:</l>
+                  <l>My thoughts ſole heaue<g ref="char:cmbAbbrStroke">̄</g>, my harts ſweet reſting place,</l>
+                  <l>Cauſe of my woe and comfort of my grieuing.</l>
+                  <l>O giue me leaue and I will tell thee how</l>
+                  <l>The haples place and the vnhappie time,</l>
+                  <l>Wherein and when my ſelfe I did auow</l>
+                  <l>To honour thee, and giue my heart to thine.</l>
+                  <l>Wearie with labour, labour that did like me,</l>
+                  <l>I gaue my bodie to a ſweet repoſe:</l>
+                  <l>A golden ſlumber ſuddenly did ſtrike me,</l>
+                  <l>That in deaths cabbin euery ſenſe did cloſe:</l>
+                  <l>And either in a heauenly trance or viſion,</l>
+                  <l>I then beheld this pleaſing apparition.</l>
+               </lg>
+            </div>
+            <div n="9" type="sonnet">
+               <pb facs="tcp:176436:8"/>
+               <head>SONNET. IX.</head>
+               <lg>
+                  <l>A Wight was clad moſt Foſter-like in greene,</l>
+                  <l>With loyal horne and hunting pole in hand:</l>
+                  <l>Whoſe chanting hou<g ref="char:cmbAbbrStroke">̄</g>ds were heard in woods &amp; ſeene</l>
+                  <l>The deere amaſde before the rider ſtand:</l>
+                  <l>The keeper bids goe chooſe the beſt in heard:</l>
+                  <l>The huntſman ſayd, my choiſe is not to change:</l>
+                  <l>And drawing neere the deere was ſore affeard,</l>
+                  <l>Into the woods the rider ſpurd to range:</l>
+                  <l>There did he view a faire young barren doe</l>
+                  <l>Within the hey faſt by the purley ſide,</l>
+                  <l>And woodman-like did take the winde then ſoe,</l>
+                  <l>Whereby the deere might better him abide.</l>
+                  <l>At length he ſhot, and hit the very ſame</l>
+                  <l>Where he beſt likte and lou'd of all the game.</l>
+               </lg>
+            </div>
+            <div n="10" type="sonnet">
+               <pb facs="tcp:176436:9"/>
+               <head>SONNET. X.</head>
+               <lg>
+                  <l>BVt ſtay conceit where he beſt likt to loue,</l>
+                  <l>Yea better he if better beſt might bee:</l>
+                  <l>The Rider thought the beſt of better proue,</l>
+                  <l>Till fortune ſign'd his fortune for to ſee.</l>
+                  <l>Now wearie he betooke himſelfe to reſt,</l>
+                  <l>Deuiſed where he might good harbour finde:</l>
+                  <l>
+                     <hi>Emaricdulf</hi> (quoth he) I am her gueſt,</l>
+                  <l>And thither went: ſhe greeted him moſt kinde:</l>
+                  <l>Welcome ſayd ſhe, three welcomes more ſhe gaue:</l>
+                  <l>His hand ſhe tooke, and talking with him then,</l>
+                  <l>What wine or beere to drinke wilt pleaſe you haue,</l>
+                  <l>Sixe welcomes more, and ſo ſhe made them ten.</l>
+                  <l>He dranke his fill, and fed to his deſire,</l>
+                  <l>Refreſht himſelfe, and then did home retire.</l>
+               </lg>
+            </div>
+            <div n="11" type="sonnet">
+               <pb facs="tcp:176436:9"/>
+               <head>SONNET. XI.</head>
+               <lg>
+                  <l>FOrthwith I ſaw, and with the ſight was bleſt,</l>
+                  <l>A beautious iſſue of a beautious mother,</l>
+                  <l>A young <hi>Emaricdulf,</hi> whoſe ſight increaſt</l>
+                  <l>Millions of ioyes each one exceeding other:</l>
+                  <l>Faire ſpringing branch ſprong of a hopefull ſtocke,</l>
+                  <l>On thee more beauties nature had beſtowde,</l>
+                  <l>Then in her heauenly ſtorehouſe ſhe doth locke,</l>
+                  <l>Or may be ſeene diſperſt on earth abrode.</l>
+                  <l>Thriſe had the Sunne the world encompaſſed,</l>
+                  <l>Before this bloſſome with deaths winter nipt:</l>
+                  <l>O cruell death that thus haſt withered</l>
+                  <l>So faire a branch before it halfe was ripte!</l>
+                  <l>Halfe glad with ioyes, and halfe appal'd with feares,</l>
+                  <l>I wak't, and found my cheekes bedew'd with teares.</l>
+               </lg>
+            </div>
+            <div n="12" type="sonnet">
+               <pb facs="tcp:176436:10"/>
+               <head>SONNET. XII.</head>
+               <lg>
+                  <l>MY cheeks bedew'd, my eies eue<g ref="char:cmbAbbrStroke">̄</g> drown'd with teares</l>
+                  <l>O fearfull ſtorme that cauſde ſo great a ſhowre<g ref="char:punc">▪</g>
+                  </l>
+                  <l>Griefe ty'd my tongue, ſorrow did ſtop my eares,</l>
+                  <l>Becauſe earth loſt her ſweeteſt paramoure.</l>
+                  <l>O cruell heauens and regardleſſe fates!</l>
+                  <l>If the worlds beautie had compaſsion'd you,</l>
+                  <l>You might by powre haue ſhut deaths ebongates,</l>
+                  <l>And been remorſefull at her heauenly view.</l>
+                  <l>O fooliſh nature why didſt thou create</l>
+                  <l>A thing ſo faire, if fairenes be neglected?</l>
+                  <l>But faireſt things be ſubiect vnto fate,</l>
+                  <l>And in the end are by the fates reiected.</l>
+                  <l>Yong <hi>Emaric</hi> yet thou croſt the deſtinie,</l>
+                  <l>For thou ſuruiu'ſt in faine, that nere ſhall die.</l>
+               </lg>
+            </div>
+            <div n="13" type="sonnet">
+               <pb facs="tcp:176436:10"/>
+               <head>SONNET. XIII.</head>
+               <lg>
+                  <l>THat I did loue and once was lou'd of thee,</l>
+                  <l>Witneſſe the fauours that I haue receiued:</l>
+                  <l>That golden ring, pledge of thy conſtancie:</l>
+                  <l>That bracelet, that my libertie bereaued:</l>
+                  <l>Thoſe gloues, that once adorn'd thy lillie hands:</l>
+                  <l>That handkercher, whoſe maze inthral'd me ſo:</l>
+                  <l>Thoſe thouſand gifts, that like a thouſand bands</l>
+                  <l>Bound both my heart and ſoule to weale and woe.</l>
+                  <l>All which I weare, and wearing them ſigh forth</l>
+                  <l>You inſtancies of her true loyaltie:</l>
+                  <l>I doe not keepe you for your ſoueraigne worth,</l>
+                  <l>But for her ſake that ſent you vnto me:</l>
+                  <l>Tis ſhe, not you, that doth compell my eyes,</l>
+                  <l>My lifes ſole light, my hearts ſole paradice.</l>
+               </lg>
+            </div>
+            <div n="14" type="sonnet">
+               <pb facs="tcp:176436:11"/>
+               <head>SONNET. XIIII.</head>
+               <lg>
+                  <l>ONe day, ô ten times happie was that day,</l>
+                  <l>
+                     <hi>Emaricdulf</hi> was in her garden walking,</l>
+                  <l>Where <hi>Floras</hi> imps ioy'd with her feete to play,</l>
+                  <l>And I to ſee them thitherward ran ſtalking,</l>
+                  <l>Behind the hedge (not daring to be ſeene)</l>
+                  <l>I ſaw the ſweet ſent Roſes bluſh for ſhame,</l>
+                  <l>The Violets ſtain'd, and pale the Lillies beene:</l>
+                  <l>Whereat to ſmile my Ladie had good game.</l>
+                  <l>Sometimes ſhe pleaſde to ſport vpon the graſſe,</l>
+                  <l>That chang'd his hew to ſee her heauenly preſence:</l>
+                  <l>But when ſhe was imasked, then (alas)</l>
+                  <l>They as my ſelfe wail'd for her beauties abſence:</l>
+                  <l>They mourn'd for that their miſtris went away,</l>
+                  <l>And I for end of ſuch a bleſſed day.</l>
+               </lg>
+            </div>
+            <div n="15" type="sonnet">
+               <pb facs="tcp:176436:11"/>
+               <head>SONNET. XV.</head>
+               <lg>
+                  <l>WHat meane our Merchants ſo with eger minds</l>
+                  <l>To plough the ſeas to finde rich iuels forth?</l>
+                  <l>Sith in <hi>Emaricdulf</hi> a thouſand kinds</l>
+                  <l>Are heap'd, exceeding wealthie Indias worth:</l>
+                  <l>Then India doth her haire affoord more gold,</l>
+                  <l>And thouſands ſiluer mines her forhead ſhowes,</l>
+                  <l>More Diamonds then th' Egyptian ſurges folde,</l>
+                  <l>Within her eyes rich treaſurie nature ſtowes:</l>
+                  <l>Her hony breath, but more then hony ſweete,</l>
+                  <l>Exceeds the odours of Arabia:</l>
+                  <l>Thoſe pretious rankes continually that meete,</l>
+                  <l>Are pearles more worth then all America.</l>
+                  <l>Her other parts (proud <hi>Cupids</hi> countermate)</l>
+                  <l>Exceed the world for worth, the heauens for ſtate.</l>
+               </lg>
+            </div>
+            <div n="16" type="sonnet">
+               <pb facs="tcp:176436:12"/>
+               <head>SONNET. XVI.</head>
+               <lg>
+                  <l>LOoke when dame <hi>Tellus</hi> clad in <hi>Floras</hi> pride,</l>
+                  <l>Her ſummer vaile with faire imbroderie,</l>
+                  <l>And fragrant hearbs ſweet bloſſom'd hauing dide.</l>
+                  <l>And ſpred abrode her ſpangled tapiſtrie:</l>
+                  <l>Then ſhalt thou ſee a thouſand of her flowers</l>
+                  <l>(For their faire hew and life delighting ſauours)</l>
+                  <l>Gathered to deck and beautifie the bowers</l>
+                  <l>Of Ladies faire, grac'd with their louers fauours.</l>
+                  <l>But when rough winter nips them with his rage,</l>
+                  <l>They are diſdain'd and not at all reſpected:</l>
+                  <l>Then loue (<hi>Emaricdulf</hi>) in thy yong age,</l>
+                  <l>Leſt being old, like flowers thou be reiected:</l>
+                  <l>Nature made nothing that doth euer flouriſh,</l>
+                  <l>And euen as beautie fades, ſo loue doth periſh.</l>
+               </lg>
+            </div>
+            <div n="17" type="sonnet">
+               <pb facs="tcp:176436:12"/>
+               <head>SONNET. XVII.</head>
+               <lg>
+                  <l>I Am inchanted with thy ſnow-white hands,</l>
+                  <l>That maſe me with their quaint dexteritie,</l>
+                  <l>And with their touch, tye in a thouſand bands</l>
+                  <l>My yeelding heart euer to honour thee:</l>
+                  <l>Thought of thy daintie fingers long and ſmall,</l>
+                  <l>For pretie action that exceed compare,</l>
+                  <l>Sufficient is to bleſſe me, and withall</l>
+                  <l>To free my chained thoughts from ſorrowes ſnare</l>
+                  <l>But that which crownes my ſoule with heauenly blis,</l>
+                  <l>And giues my heart fruition of all ioyes,</l>
+                  <l>Their daintie concord and ſweet muſick is,</l>
+                  <l>That poyſons griefe and cureth all annoyes,</l>
+                  <l>Thoſe eyes that ſee, thoſe eares are bleſt that heare</l>
+                  <l>Theſe heauenly gifts of nature in my deare.</l>
+               </lg>
+            </div>
+            <div n="18" type="sonnet">
+               <pb facs="tcp:176436:13"/>
+               <head>SONNET. XVIII.</head>
+               <lg>
+                  <l>
+                     <hi>EMaricdulf,</hi> if thou this riddle reade,</l>
+                  <l>This darke <hi>AEnigma</hi> that I will demand thee,</l>
+                  <l>Then for thy wiſedomes well deſeruing meede,</l>
+                  <l>In loues pure dutie thou ſhalt ay command mee.</l>
+                  <l>A Turtle that had choſe his louing mate,</l>
+                  <l>Sate ſeemly percht vpon a red-roſe breere:</l>
+                  <l>Yet ſaw a bird (ayres paragon for ſtate)</l>
+                  <l>That farre ſurpaſt his late eſpouſed deere:</l>
+                  <l>He chang'd himſelfe into that luſtfull bird</l>
+                  <l>That <hi>Iuno</hi> loues, and to his loue reſorted:</l>
+                  <l>And thought with amorous ſpeeches to haue firde</l>
+                  <l>Her conſtant heart: but her in vaine he courted.</l>
+                  <l>When bootles he had woo'd her to his paine,</l>
+                  <l>He tooke his leaue and turn'd his ſhape againe.</l>
+               </lg>
+            </div>
+            <div n="19" type="sonnet">
+               <pb facs="tcp:176436:13"/>
+               <head>SONNET. XIX.</head>
+               <lg>
+                  <l>THe Heauens and Nature whe<g ref="char:cmbAbbrStroke">̄</g> my Loue was borne,</l>
+                  <l>Stroue which of both ſhuld moſt adorne &amp; grace her:</l>
+                  <l>The ſacred heauens in wealthie natures ſcorne</l>
+                  <l>With wiſedomes pure infuſion did imbrace her:</l>
+                  <l>Nature lent wings to wiſedome for her flight,</l>
+                  <l>And deckt my Ladie with ſuch heauenly features,</l>
+                  <l>As nere before appear'd in humane ſight,</l>
+                  <l>Ne euer fithence in terreſtriall creatures.</l>
+                  <l>(Quoth Wiſedome) I will guide her conſtant hart</l>
+                  <l>At all aſſaies with policie to relieue her:</l>
+                  <l>(Quoth Nature) I will caſt thoſe gifts apart,</l>
+                  <l>With outward graces that I meane to giue her.</l>
+                  <l>Yet were they reconcil'd, and ſwore withall</l>
+                  <l>To make her more then halfe celeſtiall.</l>
+               </lg>
+            </div>
+            <div n="20" type="sonnet">
+               <pb facs="tcp:176436:14"/>
+               <head>SONNET. XX.</head>
+               <lg>
+                  <l>THat thou art faire exceeding all compare,</l>
+                  <l>Witnes thy eyes that gaze vpon thy beautie,</l>
+                  <l>Witnes the hearts thou daily doſt inſnare,</l>
+                  <l>And draw to honour thee with louers dutie:</l>
+                  <l>That thou art wiſe witnes the worlds report,</l>
+                  <l>Witnes the thoughts that do ſo much admire thee,</l>
+                  <l>Witnes the heauen-borne Muſes that reſort,</l>
+                  <l>And for their miſtris meekly do deſire thee:</l>
+                  <l>That thou art both exceeding faire and wiſe,</l>
+                  <l>Witnes the anguiſh of my ſillie hart:</l>
+                  <l>Thy heauenly ſhape hath caught me by my eyes,</l>
+                  <l>Thy ſecret wiſedome that giues art to art,</l>
+                  <l>So circumuents me and procures my paine,</l>
+                  <l>That I muſt dye, vnles thou true remaine.</l>
+               </lg>
+            </div>
+            <div n="21" type="sonnet">
+               <pb facs="tcp:176436:14"/>
+               <head>SONNET. XXI.</head>
+               <lg>
+                  <l>AL thoſe that write of heauen and heauenly ioyes,</l>
+                  <l>Deſcribe the way with narrow crooked be<g ref="char:cmbAbbrStroke">̄</g>dings,</l>
+                  <l>Beſet with griefe, paine, horror and annoyes,</l>
+                  <l>That till all end haue neuer perfect endings.</l>
+                  <l>The heauen wherein my thoughts are reſident,</l>
+                  <l>The paradice wherein my heart is ſainted,</l>
+                  <l>Through ſtreet-like ſtraight hie-waies I did attempt,</l>
+                  <l>Nor with rough care nor rigorous croſſe attainted</l>
+                  <l>I muſt confeſſe faith was the only meane,</l>
+                  <l>For that with ſome for want thereof did miſſe,</l>
+                  <l>Only thereby at length I did obtaine,</l>
+                  <l>And by that faith am now inſtal'd in bliſſe:</l>
+                  <l>There ſleepe my thoughts, my heart there ſet thy reſt,</l>
+                  <l>Both heart &amp; thoughts thinke that her heauen is beſt.</l>
+               </lg>
+            </div>
+            <div n="22" type="sonnet">
+               <pb facs="tcp:176436:15"/>
+               <head>SONNET. XXII.</head>
+               <lg>
+                  <l>YE ſubiects of her partiall painted praiſe,</l>
+                  <l>Pen, paper, inke, you feeble inſtruments:</l>
+                  <l>Vnto a higher ſtraine I now muſt raiſe</l>
+                  <l>Your miſtris beautious faire abiliments.</l>
+                  <l>Thou author of our hic Mconian verſe,</l>
+                  <l>That checks the proud Caſtalians eloquence:</l>
+                  <l>With humble ſpirit if I now reherſe</l>
+                  <l>Her ſeuerall graces natures excellence:</l>
+                  <l>Smile on theſe rough-hewd lines, theſe ragged words</l>
+                  <l>That neuer ſtil'd from the Caſtalian ſpring:</l>
+                  <l>Nor that one true Apologie affoords,</l>
+                  <l>Nor neuer learn'd with pleaſant tune to ſing:</l>
+                  <l>So ſhall they liue, and liuing ſtill perſeuer</l>
+                  <l>To deifie her ſacred name for euer.</l>
+               </lg>
+            </div>
+            <div n="23" type="sonnet">
+               <pb facs="tcp:176436:15"/>
+               <head>SONNET. XXIII.</head>
+               <lg>
+                  <l>YE moderne Laureats of this later age,</l>
+                  <l>That liue the worlds admirement for your writ;</l>
+                  <l>And ſeeme infuſed with a diuine rage,</l>
+                  <l>To ſhew the heauenly quinteſſence of wit:</l>
+                  <l>You on whoſe weltun'd verſe ſits princely beautie,</l>
+                  <l>Deckt and adorn'd with heauens eternitie,</l>
+                  <l>See I preſume to cote (and all is duetie)</l>
+                  <l>Her graces with my learnings ſcarſitie.</l>
+                  <l>But if my pen (<hi>Marcias</hi> harſh-writing quill)</l>
+                  <l>Could feede the feeling of my thoughts deſire,</l>
+                  <l>And ſhew my wit coequall with my will,</l>
+                  <l>Then with you men diuine I would conſpire,</l>
+                  <l>In learned poems and ſweet poeſie,</l>
+                  <l>To ſend to heauen my Ladies dignitie.</l>
+               </lg>
+            </div>
+            <div n="24" type="sonnet">
+               <pb facs="tcp:176436:16"/>
+               <head>SONNET. XXIIII.</head>
+               <lg>
+                  <l>OFthaue I heard hony-tong'd Ladies ſpeake,</l>
+                  <l>Striuing their amorous courtiers to inchant,</l>
+                  <l>And from their nectar lips ſuch ſweet words breake,</l>
+                  <l>As neither art nor heauenly skill did want.</l>
+                  <l>But when <hi>Emaricdulf</hi> gins to diſcourſe,</l>
+                  <l>Her words are more then wel-tun'd harmonie,</l>
+                  <l>And euery ſentence of a greater force</l>
+                  <l>Then Mermaids ſong, or Syrens ſorcerie:</l>
+                  <l>And if to heare her ſpeake, <hi>Laertes</hi> heire</l>
+                  <l>The wiſe <hi>Vliſses</hi> liu'd vs now among,</l>
+                  <l>From her ſweet words he could not ſtop his eare,</l>
+                  <l>As from the Syrens and the Mermaids ſong:</l>
+                  <l>And had ſhe in the Syrens place but ſtood,</l>
+                  <l>Her heauenly voyce had drown'd him in the flood.</l>
+               </lg>
+            </div>
+            <div n="25" type="sonnet">
+               <pb facs="tcp:176436:16"/>
+               <head>SONNET. XXV.</head>
+               <lg>
+                  <l>LEt gorgeous <hi>Tytan</hi> bluſh: for of her haire</l>
+                  <l>Each trannel checks his brighteſt ſummers ſhine:</l>
+                  <l>The cleereſt Comets drop within the aire</l>
+                  <l>To ſee them dim'd with thoſe her glorious eine:</l>
+                  <l>
+                     <hi>Iuno</hi> for ſtate ſhe matchles doth diſgrace,</l>
+                  <l>Surpaſsing eke for ſtature <hi>Dyan</hi> tall,</l>
+                  <l>
+                     <hi>Venus</hi> for faire, faire <hi>Venus</hi> for her face,</l>
+                  <l>In whoſe ſweet lookes are heap't the graces all:</l>
+                  <l>For wiſedome may ſhe make compariſon</l>
+                  <l>With <hi>Pallas,</hi> yet I wrong her ouer-much:</l>
+                  <l>For who ſo ſounds her policies each one,</l>
+                  <l>Will ſweare <hi>Trytontas</hi> wit was neuer ſuch:</l>
+                  <l>Her ſhe exceeds, though ſhe exceed all other,</l>
+                  <l>Being <hi>Ioues</hi> great daughter borne without a mother.</l>
+               </lg>
+            </div>
+            <div n="26" type="sonnet">
+               <pb facs="tcp:176436:17"/>
+               <head>SONNET. XXVI.</head>
+               <lg>
+                  <l>
+                     <hi>EMaricdulf</hi> reade here, but reading marke</l>
+                  <l>As in a mirror my true conſtancie:</l>
+                  <l>The golden Sunne ſhall firſt be turn'd to darke,</l>
+                  <l>And darknes claime the Sunnes bright dignitie:</l>
+                  <l>The ſtarres that ſpangle heauen with gliſtring light,</l>
+                  <l>In number more then ten times numberleſſe,</l>
+                  <l>Shall ſooner leaue to beautifie the night,</l>
+                  <l>And thereby make the world ſeeme comfortleſſe:</l>
+                  <l>Firſt ſhall the Sea become the continent,</l>
+                  <l>And red-gild Dolphins dance vpon the ſhore:</l>
+                  <l>Firſt wearie <hi>Atlas</hi> from his paine exempt,</l>
+                  <l>Shall leaue the heauens to tremble euermore,</l>
+                  <l>Before I change my thoughts and leaue to loue thee,</l>
+                  <l>And plead with words and direful ſighs to moue thee.</l>
+               </lg>
+            </div>
+            <div n="27" type="sonnet">
+               <pb facs="tcp:176436:17"/>
+               <head>SONNET. XXVII.</head>
+               <lg>
+                  <l>SWeet are the thoughts of pleaſures we haue vſde,</l>
+                  <l>Sweete are the thoughts that thinke of that ſame ſweet,</l>
+                  <l>Whoſe ſweetnes is too ſweet to be refuſde,</l>
+                  <l>That vertuous loue-taſt for my faith was meet:</l>
+                  <l>The taſte whereof is ſweeter vnto me,</l>
+                  <l>Then ſweeteſt ſweet that euer nature made.</l>
+                  <l>No odours ſweetnes may compared be</l>
+                  <l>To this true ſweetnes that will neuer fade.</l>
+                  <l>This Sonnet ſweet with cheerefull voyces ſing,</l>
+                  <l>And tune the ſame ſo pleaſing to mine eare,</l>
+                  <l>That <hi>Emaricdulf</hi> thy praiſes ſo may ring,</l>
+                  <l>As all the world thy honors fame may heare.</l>
+                  <l>Once didſt thou vow, that vow to me obſerue,</l>
+                  <l>Whoſe faith and truth from thee ſhall neuer ſwerue.</l>
+               </lg>
+            </div>
+            <div n="28" type="sonnet">
+               <pb facs="tcp:176436:18"/>
+               <head>SONNET. XXVIII.</head>
+               <lg>
+                  <l>IF euer tongue with heauen inticing cries,</l>
+                  <l>If euer words blowne from a rented hart,</l>
+                  <l>If euer teares ſhed from a Louers eyes,</l>
+                  <l>If euer ſighes iſſue of griefe and ſmart,</l>
+                  <l>If euer trembling pen with more then skill,</l>
+                  <l>If euer paper, witnes of true loue,</l>
+                  <l>If euer inke, cheefe harbenger of will,</l>
+                  <l>If euer ſentence made with art to moue,</l>
+                  <l>If all of theſe combinde by <hi>Cupids</hi> power,</l>
+                  <l>My long-borne liking to anatomiſe:</l>
+                  <l>Had but the art, with art for to diſcouer</l>
+                  <l>What loue in me doth by his art compriſe.</l>
+                  <l>Then might the heauens, the earth, water and ayre,</l>
+                  <l>Be witnes that I thinke thee onely fayre.</l>
+               </lg>
+            </div>
+            <div n="29" type="sonnet">
+               <pb facs="tcp:176436:18"/>
+               <head>SONNET. XXIX.</head>
+               <lg>
+                  <l>MY hart is like a ſhip on <hi>Neptunes</hi> backe,</l>
+                  <l>Thy beautie is the ſea where my ſhip ſayleth,</l>
+                  <l>Thy frownes the ſurges are that threat my wracke</l>
+                  <l>Thy ſmiles the windes that on my ſailes ſoft gaileth</l>
+                  <l>Long toſt betwixt faire hope and foule deſpaire,</l>
+                  <l>My ſea ſick hart, arriued on thy ſhore:</l>
+                  <l>Thy loue I meane, begges that he may repaire</l>
+                  <l>His broken veſſell with thy bounteous ſtore.</l>
+                  <l>
+                     <hi>Dido</hi> relieu'd <hi>AEneas</hi> in diſtreſſe,</l>
+                  <l>And lent him loue, and gaue to him her heart<g ref="char:punc">▪</g>
+                  </l>
+                  <l>If halfe ſuch bountie thou to me expreſſe,</l>
+                  <l>From thy faire ſhore I neuer will depart:</l>
+                  <l>But thanke kinde fortune that my courſe did ſorte,</l>
+                  <l>To ſuffer ſhipwrack on ſo ſweete a porte.</l>
+               </lg>
+            </div>
+            <div n="30" type="sonnet">
+               <pb facs="tcp:176436:19"/>
+               <head>SONNET. XXX.</head>
+               <lg>
+                  <l>ON <hi>Tellus</hi> boſome ſpring two fragrant flowers,</l>
+                  <l>The milkwhite Lilly, and the bluſhing Roſe,</l>
+                  <l>Which daintie <hi>Flora</hi> for to decke her bowers</l>
+                  <l>Aboue all other colours chiefly choſe.</l>
+                  <l>Theſe in my miſtris cheekes both empire holding</l>
+                  <l>In emulation of each others hew,</l>
+                  <l>Continually may be diſcerned folding</l>
+                  <l>Beautie in lookes, and maieſtie in view.</l>
+                  <l>Sometime they meet, and in a skarlet field</l>
+                  <l>Warre with rebellious hearts neglecting dutie,</l>
+                  <l>And neuer ceaſe, vntill they force to yeeld</l>
+                  <l>Them coward captiues conquered by beautie.</l>
+                  <l>
+                     <hi>Emaricdulf</hi> thus didſt thou play the foe,</l>
+                  <l>And I the rebell, and was conquer'd ſo.</l>
+               </lg>
+            </div>
+            <div n="31" type="sonnet">
+               <pb facs="tcp:176436:19"/>
+               <head>SONNET. XXXI.</head>
+               <lg>
+                  <l>IN tedious volumes I doe not intend</l>
+                  <l>To write my woes, my woes by loue procured,</l>
+                  <l>Nor by my infant muſe implore the end</l>
+                  <l>Of loues true life, this (loue) I haue abiured:</l>
+                  <l>Only my face (faire deare) ſhall be the booke</l>
+                  <l>Wherein my daily care ſhall be rehearſed:</l>
+                  <l>Whereby thou ſhalt perceiue when thou doeſt looke,</l>
+                  <l>How by thy beauties darts my heart was pierſed.</l>
+                  <l>My eyes ſhall witnes with diſtilling teares,</l>
+                  <l>And heart with deepe fetcht ſighes ſhall manifeſt</l>
+                  <l>My painfull torments cauſde by griefes and feares,</l>
+                  <l>And hourely labours mixt with deepe vnreſt:</l>
+                  <l>Both heart, and eyes, and face ſhall all expreſſe,</l>
+                  <l>That only thou art cauſe of my diſtreſſe.</l>
+               </lg>
+            </div>
+            <div n="32" type="sonnet">
+               <pb facs="tcp:176436:20"/>
+               <head>SONNET. XXXII.</head>
+               <lg>
+                  <l>THy image is plaine porturde in my thought,</l>
+                  <l>Thy conſtant minde is written in my heart,</l>
+                  <l>Thy ſeemely grace and pleaſing ſpeech haue wrought</l>
+                  <l>To vow me thine, till death a ſunder part:</l>
+                  <l>Thy fauours forſt me ſubiect vnto thee,</l>
+                  <l>Thy onely care extended to my good,</l>
+                  <l>Ty louely lookes, commaunded all in me</l>
+                  <l>For thy deare ſake to ſpend my deareſt blood:</l>
+                  <l>My ioy conſiſts in keeping of thy loue,</l>
+                  <l>My bale doth breede if I inioy it not:</l>
+                  <l>My ſeruice true, from thee none can remoue,</l>
+                  <l>Vnleſſe both life and loue I ſhall forgot.</l>
+                  <l>Though life and loue in time muſt haue an end,</l>
+                  <l>Yet euer I haue vowde to be thy frend.</l>
+               </lg>
+            </div>
+            <div n="33" type="sonnet">
+               <pb facs="tcp:176436:20"/>
+               <head>SONNET. XXXIII.</head>
+               <lg>
+                  <l>
+                     <hi>EMaricdulf</hi> my Orphan muſes mother,</l>
+                  <l>Pure map of vertue, Honors onely daughter:</l>
+                  <l>Bright gemme of bewtie, fayre aboue all other,</l>
+                  <l>True badge of faith, foule ignominies ſlaughter,</l>
+                  <l>Enſigne of loue, ſoure enemie to luſt,</l>
+                  <l>The graces grace, faire Ere<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ines diſgrace:</l>
+                  <l>Wrongs cheefe reprouer, cauſe of what is iuſt,</l>
+                  <l>Aduices patron, councels reſting place:</l>
+                  <l>Wiſdomes chiefe fort, wits onely pure refiner,</l>
+                  <l>Graue of deceite, the life of policie,</l>
+                  <l>Fates beſt beloued, natures true diuiner,</l>
+                  <l>Nurce of inuention, hould of conſtancie,</l>
+                  <l>Poyſon of paine, Phiſition of anoyes,</l>
+                  <l>
+                     <hi>Eliziums</hi> pride, and paradice of ioyes.</l>
+               </lg>
+            </div>
+            <div n="34" type="sonnet">
+               <pb facs="tcp:176436:21"/>
+               <head>SONNET. XXXIIII.</head>
+               <lg>
+                  <l>
+                     <hi>EMaricdulf,</hi> loue is a holy fire</l>
+                  <l>That burnes vnſeene, and yet not burning ſeene:</l>
+                  <l>Free of himſelfe, yet chain'd with ſtrong deſire:</l>
+                  <l>Conquerd by thee, yet triumphs in thy eine:</l>
+                  <l>An eye-bewitching viſion thee in ſeeming,</l>
+                  <l>That ſhadow-like flyes from a louers eyes:</l>
+                  <l>An heauen aſpiring ſpirit voyd of ſeeing:</l>
+                  <l>A gentle god, yet loues to tyrannize:</l>
+                  <l>Bond-ſlaue to honour, burthen of conceit,</l>
+                  <l>The only god of thine eyes Hyrarkie,</l>
+                  <l>Decay of friendſhip, grandſire of deceit,</l>
+                  <l>More then a god, yet wants a monarkie:</l>
+                  <l>Baſtard of nature that to heauen did clime,</l>
+                  <l>To ſeeme the misbegotten heire of time.</l>
+               </lg>
+            </div>
+            <div n="35" type="sonnet">
+               <pb facs="tcp:176436:21"/>
+               <head>SONNET. XXXV.</head>
+               <lg>
+                  <l>O Faith, thou ſacred Phoenix of this age,</l>
+                  <l>Into another world from hence exiled</l>
+                  <l>Diuorc'd from honor by vnheedfull rage,</l>
+                  <l>Pure vertues neſt by hatefull vice defiled:</l>
+                  <l>Thou faith that cal'ſt thy firname Conſtancie,</l>
+                  <l>Chriſtned aboue the nine-fold glorious ſphere,</l>
+                  <l>And from the heauens deriues thy pedegree,</l>
+                  <l>Planting the roote of thy faire linage there:</l>
+                  <l>Let this thy glorie be aboue the reſt,</l>
+                  <l>That baniſht earth where thou didſt once remaine,</l>
+                  <l>Thou yet maiſt harbour in my miſtris breſt,</l>
+                  <l>So a pure cheſt pure treaſure may containe,</l>
+                  <l>And in her liuing beautie neuer old,</l>
+                  <l>Seem like a pretious Diamond ſet in gold.</l>
+               </lg>
+            </div>
+            <div n="36" type="sonnet">
+               <pb facs="tcp:176436:22"/>
+               <head>SONNET. XXXVI.</head>
+               <lg>
+                  <l>WHen I behould heauens all behoulding ſtarres,</l>
+                  <l>I doe compare them to my woes and ſmart,</l>
+                  <l>Cauſde by the many wounds and mightie ſcarres</l>
+                  <l>That loue hath trenched in my bleeding hart:</l>
+                  <l>And when I thinke vpon the Ocean ſands,</l>
+                  <l>Me thinkes they number but my ladies bewties,</l>
+                  <l>And repreſent the infinites of bandes</l>
+                  <l>Wherein my heart is bound to endles duties:</l>
+                  <l>And when I ſee natures faire children thriue,</l>
+                  <l>Nurſt in the boſome of the fruitefull earth,</l>
+                  <l>From my chaſt vowes they their increaſe deriue;</l>
+                  <l>And as they ſpring, ſo haue my vowes their birth:</l>
+                  <l>And as the ſtarres and ſands haue endles date,</l>
+                  <l>So is my loue ſubiect to naught but fate.</l>
+               </lg>
+            </div>
+            <div n="37" type="sonnet">
+               <pb facs="tcp:176436:22"/>
+               <head>SONNET. XXXVII.</head>
+               <lg>
+                  <l>O Luſt of ſacred loue the foule corrupter,</l>
+                  <l>Vſurper of her heauenly dignitie,</l>
+                  <l>Follies firſt childe, good councels interrupter</l>
+                  <l>Foſtered by ſloth, firſt ſtep to infamie,</l>
+                  <l>Thou hel-borne monſter that affrights the wiſe,</l>
+                  <l>Loue-choking luſt, vertues diſdainefull foe:</l>
+                  <l>Wiſdomes contemner ſpurner of aduiſe,</l>
+                  <l>Swift to forſweare, to faithfull promiſe ſlow,</l>
+                  <l>Be thou as far from her chaſt-thoughted breaſt,</l>
+                  <l>Her true loue kindled heart, her vertuous minde,</l>
+                  <l>As is al-ſeeing <hi>Tytan</hi> from the weſt,</l>
+                  <l>When from <hi>Auroras</hi> armes he doth vntwinde.</l>
+                  <l>Nature did make her of a heauenly mould,</l>
+                  <l>Onely true heauenly vertues to infould.</l>
+               </lg>
+            </div>
+            <div n="38" type="sonnet">
+               <pb facs="tcp:176436:23"/>
+               <head>SONNET. XXXVIII.</head>
+               <lg>
+                  <l>MY thoughts aſcending the hie houſe of fame,</l>
+                  <l>Found in records of vertuous monuments</l>
+                  <l>A map of honours in a noble frame,</l>
+                  <l>Shining in ſpight of deaths oft baniſhments:</l>
+                  <l>A thouſand colours Loue ſate ſuted in,</l>
+                  <l>Guarded with honour and immortall time,</l>
+                  <l>Luſt led with enuie, feare, and deadly ſin,</l>
+                  <l>Oppoſde againſt faire Loues out-liuing line.</l>
+                  <l>True Conſtancie kneeld at the feet of Loue,</l>
+                  <l>And begg'd for ſeruice, but could not procure it:</l>
+                  <l>Which ſeene, my heart ſtept forth &amp; thought to moue</l>
+                  <l>Kind Loue for fauour, but did not allure it:</l>
+                  <l>Yet when my heart ſwore Conſtancie was true,</l>
+                  <l>Loue welcom'd it, and gaue them both their due.</l>
+               </lg>
+            </div>
+            <div n="39" type="sonnet">
+               <pb facs="tcp:176436:23"/>
+               <head>SONNET. XXXIX.</head>
+               <lg>
+                  <l>IMage of honour, Vertues firſt borne childe,</l>
+                  <l>Natures faire painted ſtage, Fames brighteſt face,</l>
+                  <l>Syren that neuer with thy tongue beguild,</l>
+                  <l>Sibill more wiſe then Cumas Sibill was,</l>
+                  <l>When learnings ſun with more reſplendent gleames,</l>
+                  <l>Shall with immortall flowres of poeſie,</l>
+                  <l>Bred by the vertue of Bram bigning beames</l>
+                  <l>Deck my inuention for thy dignities</l>
+                  <l>With heauenly hymnes thy more the<g ref="char:cmbAbbrStroke">̄</g> heauenly parts</l>
+                  <l>Ile deifie, thy name commands ſuch dutie,</l>
+                  <l>Though many heads of poiſeſt poets arts</l>
+                  <l>Are inſufficient to expreſſe thy beautie,</l>
+                  <l>Thy name, thy honour, and loues puritie,</l>
+                  <l>With Stanzas, Layes and Hymnes Ile ſtellifie.</l>
+               </lg>
+            </div>
+            <div n="40" type="sonnet">
+               <pb facs="tcp:176436:24"/>
+               <head>SONNET. XXXX.</head>
+               <lg>
+                  <l>SOme bewties make a god of flatterie,</l>
+                  <l>And ſcorne <hi>Eliziums</hi> eternall types,</l>
+                  <l>Nathes, I abhorre ſuch faithles propheſie,</l>
+                  <l>Leaſt I be beaten with thy vertues ſtripes,</l>
+                  <l>Wilt thou ſuruie another world to ſee?</l>
+                  <l>
+                     <hi>Delias</hi> ſweete Prophet ſhall the praiſes ſinge</l>
+                  <l>Of bewties worth exemplified in thee,</l>
+                  <l>And thy names honour in his ſweete tunes ring:</l>
+                  <l>Thy vertues <hi>Collin</hi> ſhall immortalize,</l>
+                  <l>
+                     <hi>Collin</hi> chaſt vertues organ ſweetſt eſteem'd,</l>
+                  <l>When for <hi>Elizas</hi> name he did compriſe</l>
+                  <l>Such matter as inuentions wonder ſeem'd.</l>
+                  <l>Thy vertues hee, thy bewties ſhall the other.</l>
+                  <l>Chriſten a new, whiles I ſit by and wonder.</l>
+               </lg>
+            </div>
+            <closer>
+               <salute>Mea fortuna tua Vt hodie ſic eras, &amp; ſemper.</salute>
+               <signed>qd. E. C.</signed>
+            </closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:176436:24"/>
+         </div>
+      </body>
+   </text>
+</TEI>
